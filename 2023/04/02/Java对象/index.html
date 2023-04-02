@@ -6,20 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>常见算法之贪心 | H &amp; L</title>
+  <title>Java对象 | H &amp; L</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1、算法定义 贪心算法，又称贪婪算法，在对问题求解时，总是做出在当前看来是最好的选择。也就是说，不从整体最优上加以考虑，算法得到的是在某种意义上的局部最优解。  2、算法思路">
+  <meta name="description" content="在Java里，有哪些方式可以创建一个对象1、new一个对象12Sheep sheep1 &#x3D; new Sheep();Sheep sheep2 &#x3D; new Sheep( &quot;codesheep&quot;, 18, 65.0f );  new一个对象的具体流程：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="常见算法之贪心">
-<meta property="og:url" content="http://example.com/2023/03/04/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E4%B9%8B%E8%B4%AA%E5%BF%83-1/index.html">
+<meta property="og:title" content="Java对象">
+<meta property="og:url" content="http://example.com/2023/04/02/Java%E5%AF%B9%E8%B1%A1/index.html">
 <meta property="og:site_name" content="H &amp; L">
-<meta property="og:description" content="1、算法定义 贪心算法，又称贪婪算法，在对问题求解时，总是做出在当前看来是最好的选择。也就是说，不从整体最优上加以考虑，算法得到的是在某种意义上的局部最优解。  2、算法思路">
+<meta property="og:description" content="在Java里，有哪些方式可以创建一个对象1、new一个对象12Sheep sheep1 &#x3D; new Sheep();Sheep sheep2 &#x3D; new Sheep( &quot;codesheep&quot;, 18, 65.0f );  new一个对象的具体流程：">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-03-04T11:28:29.000Z">
-<meta property="article:modified_time" content="2023-03-04T11:31:18.860Z">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2023/png/32654354/1678973852686-4bf58cc3-a07c-40f6-82d8-ccebe15823b6.png">
+<meta property="article:published_time" content="2023-04-02T04:47:46.000Z">
+<meta property="article:modified_time" content="2023-04-02T04:53:01.643Z">
 <meta property="article:author" content="GUYUE">
-<meta property="article:tag" content="算法">
+<meta property="article:tag" content="面试相关">
+<meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2023/png/32654354/1678973852686-4bf58cc3-a07c-40f6-82d8-ccebe15823b6.png">
   
     <link rel="alternative" href="/atom.xml" title="H &amp; L" type="application/atom+xml">
   
@@ -159,52 +162,52 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-常见算法之贪心-1" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Java对象" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      常见算法之贪心
+      Java对象
     </h1>
   
 
         
-        <a href="/2023/03/04/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E4%B9%8B%E8%B4%AA%E5%BF%83-1/" class="archive-article-date">
-  	<time datetime="2023-03-04T11:28:29.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-03-04</time>
+        <a href="/2023/04/02/Java%E5%AF%B9%E8%B1%A1/" class="archive-article-date">
+  	<time datetime="2023-04-02T04:47:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-02</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="1、算法定义"><a href="#1、算法定义" class="headerlink" title="1、算法定义"></a>1、算法定义</h2><blockquote>
-<p>贪心算法，又称贪婪算法，在对问题求解时，总是做出在当前看来是最好的选择。也就是说，不从整体最优上加以考虑，算法得到的是在某种意义上的局部最优解。</p>
-</blockquote>
-<h2 id="2、算法思路"><a href="#2、算法思路" class="headerlink" title="2、算法思路"></a>2、算法思路</h2><span id="more"></span>
+        <h1 id="在Java里，有哪些方式可以创建一个对象"><a href="#在Java里，有哪些方式可以创建一个对象" class="headerlink" title="在Java里，有哪些方式可以创建一个对象"></a>在Java里，有哪些方式可以创建一个对象</h1><h2 id="1、new一个对象"><a href="#1、new一个对象" class="headerlink" title="1、new一个对象"></a>1、new一个对象</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Sheep</span> <span class="variable">sheep1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Sheep</span>();</span><br><span class="line"><span class="type">Sheep</span> <span class="variable">sheep2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Sheep</span>( <span class="string">&quot;codesheep&quot;</span>, <span class="number">18</span>, <span class="number">65.0f</span> );</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p>贪心算法一般按如下步骤进行：<br>（1）建立数学模型来描述问题。<br>（2）把求解的问题分成若干个子问题。<br>（3）对每个子问题求解，得到子问题的局部最优解。<br>（4）把子问题的解局部最优解合成原来解问题的一个解。</p>
-</blockquote>
-<p>贪心算法是一种对某些求最优解问题的更简单、更迅速的设计技术。贪心算法的特点是一步一步地进行，常以当前情况为基础根据某个优化测度作最优选择，而不考虑各种可能的整体情况，省去了为找最优解要穷尽所有可能而必须耗费的大量时间。贪心算法采用<strong>自顶向下</strong>，以迭代的方法做出相继的贪心选择，每做一次贪心选择，就将所求问题简化为一个规模更小的子问题，通过每一步贪心选择，可得到问题的一个最优解。虽然每一步上都要保证能获得局部最优解，但由此产生的全局解有时不一定是最优的，所以贪心算法不要回溯。</p>
-<h2 id="3、使用条件"><a href="#3、使用条件" class="headerlink" title="3、使用条件"></a>3、使用条件</h2><p><strong>贪心选择性质</strong></p>
-<blockquote>
-<p>一个问题的整体最优解可通过一系列局部的最优解的选择达到，并且每次的选择可以依赖以前作出的选择，但不依赖于后面要作出的选择，这就是贪心选择性质。</p>
-</blockquote>
-<p><strong>最优质结构性质</strong></p>
-<blockquote>
-<p>当一个问题的最优解包含其子问题的最优解时，称此问题具有最优子结构性质。问题的最优子结构性质是该问题可用贪心法求解的关键所在。</p>
-</blockquote>
-<h2 id="4、应用举例"><a href="#4、应用举例" class="headerlink" title="4、应用举例"></a>4、应用举例</h2><blockquote>
-<p>例如，平时购物找零钱时，为使找回的零钱的硬币数最少，不要求找零钱的所有方案，而是从面值最大的币种开始，按递减的顺序考虑各面额，先尽量用大面值的面额，当不足大面值时才去考虑下一个较小面值，这就是贪心算法。</p>
-</blockquote>
-<blockquote>
-<p>还有很多经典的应用，比如霍夫曼编码，普利姆和克鲁斯卡尔最小生成树算法，还有迪杰斯特拉单源最短路径算法，都是使用了这种思维。</p>
-</blockquote>
-<h2 id="5、缺点"><a href="#5、缺点" class="headerlink" title="5、缺点"></a>5、缺点</h2><blockquote>
-<p>贪心算法也存在如下问题：<br>1、不能保证解是最佳的。因为贪心算法总是从局部出发，并没从整体考虑  ；<br>2、贪心算法一般用来<strong>解决求最大或最小解</strong>   ；<br>3、贪心算法只能确定某些问题的可行性范围  。</p>
-</blockquote>
+<p>new一个对象的具体流程：</p>
+<span id="more"></span>
+
+<p><img src="https://cdn.nlark.com/yuque/0/2023/png/32654354/1678973852686-4bf58cc3-a07c-40f6-82d8-ccebe15823b6.png" alt="img"></p>
+<h2 id="2、反射出一个对象"><a href="#2、反射出一个对象" class="headerlink" title="2、反射出一个对象"></a>2、反射出一个对象</h2><p>一般来说，拿到class对象有三种方式：</p>
+<ul>
+<li>类名.class</li>
+<li>对象名.getClass()</li>
+<li>Class.forName(全限定类名)</li>
+</ul>
+<p>有了class对象之后，接下来就可以调用newInstance()方法来创建一个对象（无参构造）</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Sheep</span> <span class="variable">sheep3</span> <span class="operator">=</span> (Sheep) Class.forName( <span class="string">&quot;cn.codesheep.article.obj.Sheep&quot;</span> ).newInstance();</span><br><span class="line"><span class="type">Sheep</span> <span class="variable">sheep4</span> <span class="operator">=</span> Sheep.class.newInstance();</span><br></pre></td></tr></table></figure>
+
+
+
+<p>可以通过getDeclaredConstructors函数获取类的所有构造函数列表</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Constructor&lt;?&gt;[] constructors = Sheep.class.getDeclaredConstructors();</span><br><span class="line"><span class="type">Sheep</span> <span class="variable">sheep5</span> <span class="operator">=</span> (Sheep) constructors[<span class="number">0</span>].newInstance();</span><br><span class="line"><span class="type">Sheep</span> <span class="variable">sheep6</span> <span class="operator">=</span> (Sheep) constructors[<span class="number">1</span>].newInstance( <span class="string">&quot;codesheep&quot;</span>, <span class="number">18</span>, <span class="number">65.1f</span> );</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="3、克隆出一个对象"><a href="#3、克隆出一个对象" class="headerlink" title="3、克隆出一个对象"></a>3、克隆出一个对象</h2><h2 id="4、反序列化出一个对象"><a href="#4、反序列化出一个对象" class="headerlink" title="4、反序列化出一个对象"></a>4、反序列化出一个对象</h2><h2 id="5、Unsafe"><a href="#5、Unsafe" class="headerlink" title="5、Unsafe"></a>5、Unsafe</h2><p>Unsafe类中有一个allocateInstance()方法，通过其就可以创建一个对象。为此我们只需要获取到一个Unsafe类的实例对象，我们自然就可以调用allocateInstance()来创建对象了。</p>
+<p>如何获取Unsafe的实例对象？</p>
+<p>当然还是利用反射机制</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Field</span> <span class="variable">f</span> <span class="operator">=</span> Unsafe.class.getDeclaredField(<span class="string">&quot;theUnsafe&quot;</span>);</span><br><span class="line">f.setAccessible(<span class="literal">true</span>);</span><br><span class="line"><span class="type">Unsafe</span> <span class="variable">unsafe</span> <span class="operator">=</span> (Unsafe) f.get(<span class="literal">null</span>);</span><br><span class="line"></span><br><span class="line"><span class="type">Sheep</span> <span class="variable">sheep8</span> <span class="operator">=</span> (Sheep) unsafe.allocateInstance( Sheep.class );</span><br></pre></td></tr></table></figure>
 
       
 
@@ -239,7 +242,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">面试相关</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
         		</li>
       		
 		</ul>
@@ -295,7 +302,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2023/03/04/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E4%B9%8B%E8%B4%AA%E5%BF%83-1/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2023/04/02/Java%E5%AF%B9%E8%B1%A1/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -309,18 +316,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2023/03/06/%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          分库分表
-        
-      </div>
-    </a>
   
-  
-    <a href="/2023/03/04/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E4%B9%8B%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">常见算法之动态规划</div>
+    <a href="/2023/03/14/%E7%BA%BF%E7%A8%8B%E6%B1%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">线程池</div>
       <i class="icon-circle-right"></i>
     </a>
   
